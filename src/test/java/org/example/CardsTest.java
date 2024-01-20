@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class CardsTest {
 
     @BeforeAll
-    public static void testSetup() {
+    public static void cardsTestSetup() {
         RestAssured.baseURI = "https://api.magicthegathering.io/v1/cards";
     }
 
