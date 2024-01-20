@@ -28,9 +28,11 @@ public class CardsTest {
     }
 
     @Test
-    public void getCardsWithParameterShouldReturnCorrectData(){
+    public void getCardsWithParametersShouldReturnCorrectData(){
         given().
                 param("id", "33b9ca30-0296-52b7-a8e2-7d4715404b0d|f592d20b-1974-569e-82ab-aa59f3a66765").
+                param("layout", "normal").
+                param("legality", "Legal").
         get().then().
                 header("Count", equalTo("2"));
     }
