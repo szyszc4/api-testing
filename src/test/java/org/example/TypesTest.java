@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.hasSize;
 public class TypesTest {
 
     @BeforeAll
-    public static void testSetup() {
+    public static void typesTestSetup() {
         RestAssured.baseURI = "https://api.magicthegathering.io/v1/types";
     }
 
