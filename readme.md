@@ -1,0 +1,1 @@
+Projekt zaliczeniowy na przedmiot Wprowadzenie do testowania w semestrze 2023Z.
